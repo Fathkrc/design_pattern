@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5646fda3-5edd-4cbd-ac5a-a10378ca392b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/FactoryDP/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/FactoryDP/FactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/FactoryDP/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/FactoryDP/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/FactoryDP/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/FactoryDP/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/SingletonDP/SingletonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalDP/SingletonDP/SingletonPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +49,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/fatihkaraca/IdeaProjects/DesignPattern/untitled/src/CreationalDP/Abstract_FactoryDP",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SingletonPatternDemo">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/CreationalDP/Abstract_FactoryDP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AbstractFactoryPatternDemo">
+    <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationalDP.Abstract_FactoryDP.AbstractFactoryPatternDemo" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CreationalDP.Abstract_FactoryDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDP.FactoryDP.FactoryPatternDemo" />
-      <module name="untitled" />
+      <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CreationalDP.FactoryDP.*" />
@@ -66,7 +88,7 @@
     </configuration>
     <configuration name="SingletonPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDP.SingletonDP.SingletonPatternDemo" />
-      <module name="untitled" />
+      <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CreationalDP.SingletonDP.*" />
@@ -79,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryPatternDemo" />
         <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Application.FactoryPatternDemo" />
       </list>
